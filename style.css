@@ -55,12 +55,12 @@ h2 {
   margin-left: 4px ;
 }
 
-.hobbies {
+.list-elements {
   padding-left: 15px;
   list-style:circle
 }
 
-.hobbies li {
+.list-elements li {
   margin-bottom: 4px;
 }
 
@@ -89,3 +89,5 @@ h2 {
 .social-links img:hover {
   transform: scale(1.5);
 }
+
+
