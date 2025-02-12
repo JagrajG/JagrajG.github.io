@@ -16,6 +16,11 @@ h2 {
   margin-top: 40px;
 }
 
+h3{
+  text-decoration: none !important;
+  color: navy;
+}
+
 .home-page {
   max-width: 1000px;
   margin: 0 auto;
@@ -94,5 +99,7 @@ h2 {
 
 .project-list p{
   margin-left: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
