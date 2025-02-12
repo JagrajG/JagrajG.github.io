@@ -1,9 +1,11 @@
+/* Reset styles for consistency */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Basic page styling */
 body {
   font-family: Arial, sans-serif;
   background: #f4f4f4;
@@ -11,7 +13,16 @@ body {
   padding: 20px;
 }
 
+.home-page {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+/* Headshot styling */
 .headshot {
   width: 100px;
   height: 100px;
@@ -19,4 +30,49 @@ body {
   object-fit: cover;
   display: block;
   margin-bottom: 10px;
+}
+
+.home-page h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.page-content {
+  margin-top: 20px;
+}
+
+.page-content h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.page-content p {
+  margin-bottom: 10px;
+}
+
+/* Social links styling */
+.social-links {
+  list-style: none;
+  display: flex;             
+  justify-content: center;   
+  align-items: center;
+  gap: 20px;                 
+  padding: 0;
+  margin-top: 20px;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links img {
+  width: 40px;   
+  height: 40px;   
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+
+.social-links img:hover {
+  transform: scale(1.5);
 }
